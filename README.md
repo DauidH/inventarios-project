@@ -86,48 +86,13 @@ ng serve
   - Username: `admin`
   - Password: `admin123`
 
-## 📁 Estructura del Proyecto
-
-```
-proyecto-inventario-2/
-├── backend/                 # Servidor Express
-│   ├── config/             # Configuración de BD
-│   ├── database/           # Scripts SQL
-│   ├── middleware/         # Middlewares
-│   ├── routes/             # Rutas de la API
-│   ├── config.env          # Variables de entorno
-│   ├── package.json        # Dependencias del backend
-│   └── server.js           # Servidor principal
-├── frontend/               # Aplicación Angular
-│   ├── src/
-│   │   ├── app/           # Componentes y servicios
-│   │   ├── assets/        # Recursos estáticos
-│   │   ├── environments/  # Configuración de entornos
-│   │   └── styles/        # Estilos globales
-│   ├── angular.json       # Configuración de Angular
-│   ├── package.json       # Dependencias del frontend
-│   └── tsconfig.json      # Configuración de TypeScript
-├── package.json            # Scripts del proyecto
-└── README.md              # Este archivo
-```
-
 ## 🔧 Configuración
 
 ### Variables de Entorno
 
 Configura el archivo `backend/config.env` con tus credenciales de base de datos y configuraciones del servidor.
 
-### Base de Datos
-
-El sistema incluye las siguientes tablas principales:
-
-- **usuarios** - Gestión de usuarios y autenticación
-- **roles** - Roles y permisos del sistema
-- **categorias** - Categorías de productos
-- **productos** - Información de productos
-- **movimientos_inventario** - Historial de movimientos
-
-## ⚡ Funcionalidades
+## Funcionalidades
 
 ### Autenticación y Autorización
 - Login con JWT
@@ -162,7 +127,7 @@ El sistema incluye las siguientes tablas principales:
 - Tendencias y estadísticas
 - Exportación de datos
 
-## 🚀 Despliegue
+## Despliegue
 
 ### Desarrollo Local
 
@@ -183,11 +148,3 @@ npm start
 ```
 
 ---
-
-## 📞 Contacto
-
-Si tienes dudas o sugerencias, no dudes en contactarme.
-
-## 📄 Licencia
-
-Este proyecto es de uso educativo.
