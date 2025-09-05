@@ -11,10 +11,19 @@
     "build": "cd frontend && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": ["inventario", "angular", "express", "mysql", "gestión"],
+  "keywords": [
+    "inventario",
+    "angular",
+    "express",
+    "mysql",
+    "gestión"
+  ],
   "author": "Tu Nombre",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
   }
 }

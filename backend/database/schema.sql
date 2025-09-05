@@ -154,7 +154,7 @@ INSERT INTO roles (nombre, descripcion, permisos) VALUES
 -- Insertar usuario administrador por defecto
 -- Password: admin123 (hasheado con bcrypt)
 INSERT INTO usuarios (username, email, password, nombre, apellido, rol_id) VALUES
-('admin', 'admin@inventario.com', '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj3ZxQQxq3re', 'Administrador', 'Sistema', 1);
+('admin', 'admin@inventario.com', '$2a$12$z0AwfSe4bcuGrhI0w/7yNuA6VWC45QQq7mIfHldx4ODKwDlywXTpa', 'Administrador', 'Sistema', 1);
 
 -- Insertar categorías de ejemplo
 INSERT INTO categorias (nombre, descripcion) VALUES
